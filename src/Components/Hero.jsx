@@ -1,3 +1,5 @@
+import Project from "./Project";
+
 function Hero() {
   return (
     <div className="scroll-smooth">
@@ -28,98 +30,37 @@ function Hero() {
             Join us in transforming lives through impactful projects that foster
             knowledge, skills, and community empowerment.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Course Cards */}
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Taleem Mumkin
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Scholarships and skill training to empower students for academic
-                and career success.
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/taleem-mumkin/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Aao Sulah Karein (ASK)
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Providing expert counseling to resolve marital conflicts and
-                promote harmony in families.
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/ask/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Badal Do
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Inspiring minds and transforming lives through purpose,
-                self-awareness, and positivity
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/badal-do/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                E-Commerce
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Empowering entrepreneurship and boosting Pakistan's economy
-                through e-commerce and digital skills
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/e-commerce/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Creative Center
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Inspiring positive change through the wisdom of historical
-                figures and impactful storytelling
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/creative-centre/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
-            <div className="bg-white p-6 shadow-lg rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Let's Pay Back
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Empowering knowledge-sharing nationwide, bridging academia and
-                industry for impactful education and growth
-              </p>
-              <a
-                href="https://qasimalishahfoundation.org/services/lets-pay-back/"
-                className="text-qasfgreen font-medium hover:underline"
-              >
-                Learn More →
-              </a>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Project
+              title="Taleem Mumkin"
+              description="Scholarships and skill training to empower students for academic and career success."
+              link="https://qasimalishahfoundation.org/services/taleem-mumkin/"
+            />
+            <Project
+              title="Aao Sulah Karein (ASK)"
+              description="Providing expert counseling to resolve marital conflicts and promote harmony in families."
+              link="https://qasimalishahfoundation.org/services/ask/"
+            />
+            <Project
+              title="Badal Do"
+              description="Inspiring minds and transforming lives through purpose, self-awareness, and positivity."
+              link="https://qasimalishahfoundation.org/services/badal-do/"
+            />
+            <Project
+              title="E-Commerce"
+              description="Empowering entrepreneurship and boosting Pakistan's economy through e-commerce and digital skills."
+              link="https://qasimalishahfoundation.org/services/e-commerce/"
+            />
+            <Project
+              title="Creative Center"
+              description="Inspiring positive change through the wisdom of historical figures and impactful storytelling."
+              link="https://qasimalishahfoundation.org/services/creative-centre/"
+            />
+            <Project
+              title="Let's Pay Back"
+              description="Empowering knowledge-sharing nationwide, bridging academia and industry for impactful education and growth."
+              link="https://qasimalishahfoundation.org/services/lets-pay-back/"
+            />
           </div>
         </div>
       </section>
