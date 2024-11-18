@@ -76,16 +76,10 @@ function Hero() {
           </p>
           <Link
             to="/getstart"
-            className="hover:text-qasfblue font-medium transition-colors"
-          >
-            Get Started
-          </Link>
-          <a
-            href="#"
             className="px-8 py-4 bg-white text-qasfblue font-semibold rounded-full shadow-lg hover:bg-gray-100 transition"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </section>
 
