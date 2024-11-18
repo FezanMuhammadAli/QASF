@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="flex justify-between items-center bg-white px-12 py-2 shadow-md fixed top-0 left-0 w-full z-10 h-16">
@@ -12,30 +14,30 @@ function Navbar() {
 
       {/* Navigation Links */}
       <div className="space-x-16 text-gray-600">
-        <a
-          href="#home"
+        <Link
+          to="/"
           className="hover:text-qasfblue font-medium transition-colors"
         >
           Home
-        </a>
-        <a
-          href="#about"
+        </Link>
+        <Link
+          to="/about"
           className="hover:text-qasfblue font-medium transition-colors"
         >
           About
-        </a>
-        <a
-          href="#contact"
+        </Link>
+        <Link
+          to="/contact"
           className="hover:text-qasfblue font-medium transition-colors"
         >
           Contact
-        </a>
-        <a
-          href="#getstart"
+        </Link>
+        <Link
+          to="/getstart"
           className="hover:text-qasfblue font-medium transition-colors"
         >
-          Get Start with QASF
-        </a>
+          Get Start With QASF
+        </Link>
       </div>
     </nav>
   );
