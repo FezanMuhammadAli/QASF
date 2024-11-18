@@ -1,4 +1,5 @@
 import Project from "./Project";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -73,6 +74,12 @@ function Hero() {
             Join thousands of learners who are achieving their goals with Qasim
             Ali Shah Foundation.
           </p>
+          <Link
+            to="/getstart"
+            className="hover:text-qasfblue font-medium transition-colors"
+          >
+            Get Started
+          </Link>
           <a
             href="#"
             className="px-8 py-4 bg-white text-qasfblue font-semibold rounded-full shadow-lg hover:bg-gray-100 transition"
