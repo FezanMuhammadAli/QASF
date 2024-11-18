@@ -10,7 +10,7 @@ function About() {
       </div>
 
       {/* About Section */}
-      <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-20 mt-8">
+      <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-20 mt-16">
         {/* Content Container */}
         <div className="bg-white rounded-xl shadow-xl p-6 md:p-12 w-full max-w-4xl">
           {/* Title */}
