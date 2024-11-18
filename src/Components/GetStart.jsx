@@ -5,7 +5,7 @@ function GetStart() {
   return (
     <div className="bg-gradient-to-br from-qasfblue to-qasfgreen h-screen w-full absolute top-0 left-0 -z-10 flex items-center justify-center">
       <Navbar />
-      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg mt-">
+      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg mt-16">
         {/* Card Content */}
         <div className="text-center">
           {/* Logo */}
@@ -13,7 +13,7 @@ function GetStart() {
             <img
               src="https://s.mustakbil.com/employers/c0583d8c90a9496cb8e0fc725207a85d.jpg" // Replace with your logo URL
               alt="Logo"
-              className="h-24 w-24 object-cover rounded-full border-4 border-qasfblue"
+              className="h-32 w-32 object-cover rounded-full border-4 border-qasfblue"
             />
           </div>
 
