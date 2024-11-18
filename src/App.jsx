@@ -4,7 +4,7 @@ import About from "./Components/About";
 import GetStart from "./Components/GetStart";
 import Contact from "./Components/Contact";
 import CreateAccount from "./Components/CreateAccount";
-import Login from "./Components/Login";
+import Login from "./Components/LogIn";
 import Terms from "./Components/Terms";
 import DNavbar from "./Components/DNavbar";
 
