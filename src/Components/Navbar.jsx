@@ -4,7 +4,7 @@ function Navbar() {
       {/* Logo Section */}
       <div className="flex items-center space-x-4">
         <img
-          src="./src/assets/QASF.jpg"
+          src="https://s.mustakbil.com/employers/c0583d8c90a9496cb8e0fc725207a85d.jpg"
           alt="Logo"
           className="h-32 w-32 object-cover rounded-full"
         />
