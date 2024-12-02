@@ -75,7 +75,7 @@ function Hero() {
             Ali Shah Foundation.
           </p>
           <Link
-            to="/getstart"
+            to="/create-account"
             className="px-8 py-4 bg-white text-qasfblue font-semibold rounded-full shadow-lg hover:bg-gray-100 transition"
           >
             Get Started
