@@ -33,7 +33,7 @@ function Navbar() {
           Contact
         </Link>
         <Link
-          to="/getstart"
+          to="/create-account"
           className="hover:text-qasfblue font-medium transition-colors"
         >
           Get Start With QASF

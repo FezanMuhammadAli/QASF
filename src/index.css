@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.DNavbarContainer {
+  display: flex; /* Enables flex layout */
+  height: 100vh; /* Full screen height */
+}
+
+.DLNav {
+  width: 300px; /* Static width for the left container */
+  height: 100%; /* Full height */
+}
+
+.DRWelcome {
+  flex: 1; /* Take remaining width */
+  height: 100%; /* Full height */
+  margin-top: 60px; /* Margin from the top */
+  margin-left: 16px; /* Margin from the left */
+  margin-right: 16px; /* Margin from the right */
+  background-color: aliceblue; /* Background color */
+}
