@@ -6,7 +6,7 @@ function Project({ title, description, link }) {
       <h3 className="text-xl font-semibold text-gray-800 mb-4">{title}</h3>
       <p className="text-gray-600 mb-6">{description}</p>
       <a href={link} className="text-qasfgreen font-medium hover:underline">
-        Learn More →
+        Enroll Now →
       </a>
     </div>
   );

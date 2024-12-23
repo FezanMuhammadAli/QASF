@@ -61,9 +61,6 @@ function DSettings() {
               <button className="bg-qasfblue text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfblue-dark transition duration-300">
                 Save Changes
               </button>
-              <button className="bg-qasfgreen text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfgreen-dark transition duration-300">
-                Reset Changes
-              </button>
             </div>
           </form>
         </section>
