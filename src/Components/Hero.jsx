@@ -32,36 +32,51 @@ function Hero() {
             knowledge, skills, and community empowerment.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Project
-              title="Taleem Mumkin"
-              description="Scholarships and skill training to empower students for academic and career success."
-              link="https://qasimalishahfoundation.org/services/taleem-mumkin/"
-            />
-            <Project
-              title="Aao Sulah Karein (ASK)"
-              description="Providing expert counseling to resolve marital conflicts and promote harmony in families."
-              link="https://qasimalishahfoundation.org/services/ask/"
-            />
-            <Project
-              title="Badal Do"
-              description="Inspiring minds and transforming lives through purpose, self-awareness, and positivity."
-              link="https://qasimalishahfoundation.org/services/badal-do/"
-            />
-            <Project
-              title="E-Commerce"
-              description="Empowering entrepreneurship and boosting Pakistan's economy through e-commerce and digital skills."
-              link="https://qasimalishahfoundation.org/services/e-commerce/"
-            />
-            <Project
-              title="Creative Center"
-              description="Inspiring positive change through the wisdom of historical figures and impactful storytelling."
-              link="https://qasimalishahfoundation.org/services/creative-centre/"
-            />
-            <Project
-              title="Let's Pay Back"
-              description="Empowering knowledge-sharing nationwide, bridging academia and industry for impactful education and growth."
-              link="https://qasimalishahfoundation.org/services/lets-pay-back/"
-            />
+            <Link to="/program-enrollment" state={{ program: "Taleem Mumkin" }}>
+              <Project
+                title="Taleem Mumkin"
+                description="Scholarships and skill training to empower students for academic and career success."
+              />
+            </Link>
+            <Link
+              to="/program-enrollment"
+              state={{ program: "Aao Sulah Karein (ASK)" }}
+            >
+              <Project
+                title="Aao Sulah Karein (ASK)"
+                description="Providing expert counseling to resolve marital conflicts and promote harmony in families."
+              />
+            </Link>
+            <Link to="/program-enrollment" state={{ program: "Badal Do" }}>
+              <Project
+                title="Badal Do"
+                description="Inspiring minds and transforming lives through purpose, self-awareness, and positivity."
+              />
+            </Link>
+            <Link to="/program-enrollment" state={{ program: "E-Commerce" }}>
+              <Project
+                title="E-Commerce"
+                description="Empowering entrepreneurship and boosting Pakistan's economy through e-commerce and digital skills."
+              />
+            </Link>
+            <Link
+              to="/program-enrollment"
+              state={{ program: "Creative Center" }}
+            >
+              <Project
+                title="Creative Center"
+                description="Inspiring positive change through the wisdom of historical figures and impactful storytelling."
+              />
+            </Link>
+            <Link
+              to="/program-enrollment"
+              state={{ program: "Let's Pay Back" }}
+            >
+              <Project
+                title="Let's Pay Back"
+                description="Empowering knowledge-sharing nationwide, bridging academia and industry for impactful education and growth."
+              />
+            </Link>
           </div>
         </div>
       </section>

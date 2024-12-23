@@ -9,6 +9,7 @@ import DTrainers from "./Components/DTrainers";
 import DLinks from "./Components/DLinks";
 import DSchedule from "./Components/DSchedule";
 import DSettings from "./Components/DSettings";
+import ProgramEnrollment from "./Components/ProgramEnrollment";
 
 const RoutesConfig = [
   {
@@ -62,6 +63,10 @@ const RoutesConfig = [
   {
     path: "/dashboard/links",
     element: <DLinks />,
+  },
+  {
+    path: "/program-enrollment",
+    element: <ProgramEnrollment />,
   },
 ];
 
