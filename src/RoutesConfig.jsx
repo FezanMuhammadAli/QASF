@@ -10,6 +10,7 @@ import DLinks from "./Components/DLinks";
 import DSchedule from "./Components/DSchedule";
 import DSettings from "./Components/DSettings";
 import ProgramEnrollment from "./Components/ProgramEnrollment";
+import DProgress from "./Components/DProgress";
 
 const RoutesConfig = [
   {
@@ -67,6 +68,10 @@ const RoutesConfig = [
   {
     path: "/program-enrollment",
     element: <ProgramEnrollment />,
+  },
+  {
+    path: "/dashboard/progress",
+    element: <DProgress />,
   },
 ];
 

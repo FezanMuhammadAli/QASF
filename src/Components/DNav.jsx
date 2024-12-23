@@ -28,6 +28,16 @@ function DNav() {
           </li>
           <li className="mb-4 flex items-center">
             <img
+              src="/src/assets/DProgress.svg"
+              alt="Progress Icon"
+              className="w-5 h-5 mr-2"
+            />
+            <NavLink to="/dashboard/progress" className="hover:text-gray-300">
+              Progress
+            </NavLink>
+          </li>
+          <li className="mb-4 flex items-center">
+            <img
               src="/src/assets/DLinks.svg"
               alt="Links Icon"
               className="w-5 h-5 mr-2"
