@@ -36,14 +36,14 @@ function DTrainers() {
   return (
     <div className="flex min-h-screen bg-gradient-to-br from-qasfblue to-qasfgreen">
       <DNav />
-      <div className="w-3/4 bg-white p-6">
+      <div className="w-3/4 bg-white p-6 rounded-lg shadow-xl">
         {/* Trainers Section */}
         <section
           id="trainers"
-          className="bg-qasfblue p-6 rounded-lg mb-6 text-white"
+          className="bg-qasfblue p-6 rounded-lg mb-6 text-white shadow-lg"
         >
-          <h2 className="text-xl font-semibold mb-4">Meet Our Trainers</h2>
-          <p>
+          <h2 className="text-2xl font-semibold mb-4">Meet Our Trainers</h2>
+          <p className="text-sm">
             Our trainers are industry experts with years of experience,
             committed to empowering the next generation of leaders. They bring a
             wealth of knowledge and real-world insights to our program.
@@ -58,18 +58,20 @@ function DTrainers() {
           {instructors.map((instructor, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 relative"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 relative"
             >
               {/* Instructor Profile Image */}
               <img
                 src={instructor.image}
                 alt={instructor.name}
-                className="w-16 h-16 object-cover rounded-full absolute top-4 left-4 border-4 border-white"
+                className="w-24 h-24 object-cover rounded-full absolute top-4 left-4 border-4 border-white shadow-lg"
               />
               {/* Card Content */}
-              <div className="ml-24">
-                <h3 className="text-xl font-semibold">{instructor.name}</h3>
-                <p className="text-sm text-gray-500">{instructor.title}</p>
+              <div className="ml-32">
+                <h3 className="text-xl font-semibold text-qasfblue">
+                  {instructor.name}
+                </h3>
+                <p className="text-sm text-qasfgreen">{instructor.title}</p>
                 <p className="mt-2 text-gray-700">{instructor.description}</p>
               </div>
             </div>
@@ -79,10 +81,10 @@ function DTrainers() {
         {/* Trainers Highlights Section */}
         <section
           id="trainers-highlights"
-          className="bg-blue-200 p-6 rounded-lg mb-6"
+          className="bg-qasfgreen p-6 rounded-lg text-white shadow-lg mb-6"
         >
-          <h2 className="text-xl font-semibold mb-4">Key Highlights</h2>
-          <ul className="list-disc ml-6">
+          <h2 className="text-2xl font-semibold mb-4">Key Highlights</h2>
+          <ul className="list-disc ml-6 text-sm">
             <li>Industry-leading trainers with real-world experience</li>
             <li>Comprehensive and practical training sessions</li>
             <li>Opportunities to interact and network with experts</li>
