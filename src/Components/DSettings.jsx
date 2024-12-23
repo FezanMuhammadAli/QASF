@@ -8,10 +8,10 @@ function DSettings() {
         {/* Settings Section */}
         <section
           id="settings"
-          className="bg-qasfblue p-6 rounded-lg mb-6 text-white"
+          className="bg-qasfblue p-6 rounded-lg mb-6 text-white shadow-lg"
         >
-          <h2 className="text-xl font-semibold mb-4">Profile Management</h2>
-          <p>
+          <h2 className="text-2xl font-semibold mb-4">Profile Management</h2>
+          <p className="text-sm">
             Manage your profile details, change your password, or log out from
             your account.
           </p>
@@ -20,10 +20,10 @@ function DSettings() {
         {/* Profile Details Section */}
         <section
           id="profile-details"
-          className="bg-qasfgreen p-6 rounded-lg mb-6 text-white"
+          className="bg-qasfgreen p-6 rounded-lg mb-6 text-white shadow-lg"
         >
-          <h3 className="text-lg font-semibold mb-4">Profile Details</h3>
-          <form className="space-y-4">
+          <h3 className="text-xl font-semibold mb-4">Profile Details</h3>
+          <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium">
                 Name
@@ -31,7 +31,7 @@ function DSettings() {
               <input
                 type="text"
                 id="name"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Enter your name"
               />
             </div>
@@ -42,7 +42,7 @@ function DSettings() {
               <input
                 type="email"
                 id="email"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Enter your email"
               />
             </div>
@@ -53,15 +53,15 @@ function DSettings() {
               <input
                 type="text"
                 id="phone"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Enter your phone number"
               />
             </div>
-            <div className="flex justify-between items-center mt-4">
-              <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700">
+            <div className="flex justify-between items-center mt-6">
+              <button className="bg-qasfblue text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfblue-dark transition duration-300">
                 Save Changes
               </button>
-              <button className="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-700">
+              <button className="bg-qasfgreen text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfgreen-dark transition duration-300">
                 Reset Changes
               </button>
             </div>
@@ -71,10 +71,10 @@ function DSettings() {
         {/* Change Password Section */}
         <section
           id="change-password"
-          className="bg-blue-200 p-6 rounded-lg mb-6"
+          className="bg-qasfblue p-6 rounded-lg mb-6 text-white shadow-lg"
         >
-          <h3 className="text-lg font-semibold mb-4">Change Password</h3>
-          <form className="space-y-4">
+          <h3 className="text-xl font-semibold mb-4">Change Password</h3>
+          <form className="space-y-6">
             <div>
               <label
                 htmlFor="current-password"
@@ -85,7 +85,7 @@ function DSettings() {
               <input
                 type="password"
                 id="current-password"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Enter your current password"
               />
             </div>
@@ -99,7 +99,7 @@ function DSettings() {
               <input
                 type="password"
                 id="new-password"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Enter your new password"
               />
             </div>
@@ -113,12 +113,12 @@ function DSettings() {
               <input
                 type="password"
                 id="confirm-password"
-                className="mt-1 p-2 w-full rounded-md bg-white text-black"
+                className="mt-1 p-3 w-full rounded-md bg-white text-black shadow-md"
                 placeholder="Confirm your new password"
               />
             </div>
-            <div className="mt-4">
-              <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700">
+            <div className="mt-6">
+              <button className="bg-qasfblue text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfblue-dark transition duration-300">
                 Change Password
               </button>
             </div>
@@ -126,13 +126,16 @@ function DSettings() {
         </section>
 
         {/* Logout Button */}
-        <section id="logout" className="bg-red-500 p-6 rounded-lg text-white">
-          <h3 className="text-lg font-semibold mb-4">Logout</h3>
-          <p>
+        <section
+          id="logout"
+          className="bg-qasfgreen p-6 rounded-lg text-white shadow-lg"
+        >
+          <h3 className="text-xl font-semibold mb-4">Logout</h3>
+          <p className="text-sm">
             If you wish to log out from your account, click the button below.
           </p>
-          <div className="mt-4">
-            <button className="bg-red-700 text-white py-2 px-4 rounded-md hover:bg-red-900">
+          <div className="mt-6">
+            <button className="bg-qasfblue text-white py-2 px-6 rounded-md shadow-md hover:bg-qasfblue-dark transition duration-300">
               Logout
             </button>
           </div>
